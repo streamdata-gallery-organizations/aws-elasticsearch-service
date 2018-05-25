@@ -3,12 +3,11 @@ swagger: "2.0"
 x-collection-name: AWS Elasticsearch Service
 x-complete: 0
 info:
-  title: Amazon Elasticsearch Service API Update Elasticsearch Domain Config
+  title: Amazon Elasticsearch Service API Remove Tags
   version: 1.0.0
   description: |-
-    Modifies the configuration of an Amazon ES domain, such as the instance type and the
-                    number of instances. Use the POST HTTP method with this
-                    operation.
+    Removes the specified resource tags from an Amazon ES domain. Use the POST
+                    HTTP method with this operation.
 schemes:
 - http
 produces:
@@ -119,19 +118,6 @@ paths:
         name: DomainName
         description: Name of the Amazon ES domain
         type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Domains
-    post:
-      summary: Update Elasticsearch Domain Config
-      description: |-
-        Modifies the configuration of an Amazon ES domain, such as the instance type and the
-                        number of instances. Use the POST HTTP method with this
-                        operation.
-      operationId: updateElasticsearchDomainConfig
-      x-api-path-slug: 20150101esdomaindomain-nameconfig-post
       responses:
         200:
           description: OK

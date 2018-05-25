@@ -153,7 +153,7 @@ paths:
         Removes the specified resource tags from an Amazon ES domain. Use the POST
                         HTTP method with this operation.
       operationId: removeTags
-      x-api-path-slug: esaws-regionamazonawscom20150101tagsremoval-post
+      x-api-path-slug: es-aws-region-amazonaws-com20150101tagsremoval-post
       responses:
         200:
           description: OK

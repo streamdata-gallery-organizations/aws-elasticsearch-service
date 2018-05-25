@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: AWS Elasticsearch Service
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-elasticsearch-service/master/_listings/aws-elasticsearch-service/apis.md
 specificationVersion: "0.14"
 apis:
@@ -131,7 +131,7 @@ apis:
   tags: Tags
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-elasticsearch-service/master/_listings/aws-elasticsearch-service/esaws-regionamazonawscom20150101tagsremoval-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-elasticsearch-service/master/_listings/aws-elasticsearch-service/es-aws-region-amazonaws-com20150101tagsremoval-post-openapi.md
 - name: Amazon Elasticsearch Service API Update Elasticsearch Domain Config
   x-api-slug: amazon-elasticsearch-service-api
   description: |-
