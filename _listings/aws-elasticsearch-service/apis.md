@@ -10,10 +10,10 @@ description: Amazon Elasticsearch Service makes it easy to deploy, operate, and 
   and Amazon CloudWatch so that you can go from raw data to actionable insights quickly.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS Elasticsearch Service
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-elasticsearch-service/master/_listings/aws-elasticsearch-service/apis.md
 specificationVersion: "0.14"
 apis:
